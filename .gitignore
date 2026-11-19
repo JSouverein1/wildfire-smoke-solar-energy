@@ -1,0 +1,64 @@
+
+# ======================================
+# Wildfire Smoke & Solar Energy Project
+# ======================================
+
+# Raw downloaded NOAA and NASA data
+data/raw/
+
+# Large satellite files
+*.nc
+*.hdf
+*.h5
+*.hdf5
+*.grib
+*.grb
+
+# Download caches and temporary files
+data/cache/
+*.tmp
+*.part
+*.download
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Authentication tokens and credentials
+.env
+.env.*
+*.pem
+*.key
+.netrc
+*token*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# ======================================
+# KEEP THESE IN GITHUB
+# ======================================
+
+# README.md
+# requirements.txt
+# scripts/
+# tests/
+# docs/
+# data/processed/*.csv
+# figures/
+# results/
